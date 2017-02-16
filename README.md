@@ -9,4 +9,4 @@ Nosso projeto tem como objetivo principal implementar um serviço web para facil
 # Esboço De Tela
   - Exaltasamba
 
-![Alt Text] (https://www.facebook.com/photo.php?fbid=1213485945414599&set=a.225357534227450.48490.100002596144558&type=3&theater)
+![Alt Text](https://github.com/gabbezerra/ProjetoDw/blob/master/Esbo%C3%A7o.png?raw=true)
