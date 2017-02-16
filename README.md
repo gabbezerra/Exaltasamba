@@ -1,4 +1,4 @@
-# Projeto DwSamba
+# Projeto de Dw (Samba)
 Nosso projeto tem como objetivo principal implementar um serviço web para facilitar a configuração e uso do samba para compartilhamento de arquivos com uma interface amigável e de fácil uso.
 
 # Sistema Existente
