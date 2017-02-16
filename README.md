@@ -3,4 +3,4 @@ Nosso projeto tem como objetivo principal implementar um serviço web para facil
 
 :shipit: :shipit: :shipit: :shipit: :shipit: :shipit: :shipit: :shipit: :shipit: :shipit: :shipit: :shipit: :shipit: :shipit: :shipit: :shipit: :shipit: :shipit: :shipit: :shipit: :shipit: :shipit: :shipit: :shipit: :shipit:
 
-![Alt Text](https://github.com/{user}/{repo}/raw/{branch}/path/to/image.gif)
+![Alt Text](http://www.ajsolucionesinformaticas.com/imagenes/ics/ics_3.jpg)
