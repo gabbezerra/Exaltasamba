@@ -8,3 +8,5 @@ Nosso projeto tem como objetivo principal implementar um serviço web para facil
 
 # Esboço De Tela
   - Exaltasamba
+
+![screenshot] (C:\Users\ErickCamara\Downloads\Novapasta\Esboço.png)
