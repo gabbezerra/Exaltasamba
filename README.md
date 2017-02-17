@@ -10,4 +10,4 @@
 # Esboço De Tela
   - Exaltasamba
 
-![Alt Text](https://github.com/gabbezerra/ProjetoDw/blob/master/Esbo%C3%A7o.png?raw=true)
+![Alt Text](https://github.com/gabbezerra/ProjetoDw/blob/master/Esbo%C3%A7o-2.jpg?raw=true)
