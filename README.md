@@ -13,11 +13,7 @@
 
 
 
-![Alt Text](https://github.com/gabbezerra/ProjetoDw/blob/master/IMG_20022017_170226_0.png)
-
-
-
-![Alt Text](https://github.com/gabbezerra/ProjetoDw/blob/master/IMG_20022017_170226_0.png)
+![Alt Text](https://github.com/gabbezerra/ProjetoDw/blob/master/IMG_20022017_170538_0.png)
 
 
 # Esboço De Tela
