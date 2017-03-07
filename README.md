@@ -38,5 +38,5 @@
       - valid users = usuários-permitidos
   - service smbd restart
   - service nmbd restart
-  - smbpasswd -a <nome-do-usuário> (para criar o usuário no samba)
+  - smbpasswd -a nome-do-usuário (para criar o usuário no samba)
       
