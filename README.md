@@ -31,7 +31,7 @@
     - [global]
       - workgroup = {nome-do-grupo}
       - security = {tipo-de-segurança}
-     - [usuário]
+    - [usuário]
       - writeable = {yes-no}
       - path = {local-da-pasta-compartilhada}
       - browseable = {yes-no}
