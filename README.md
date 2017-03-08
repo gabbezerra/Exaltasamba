@@ -27,7 +27,7 @@
 
 # Comandos utilizados para instalação e configuração do samba
   
-  - Instalaço do samba
+  - Instalação do samba
  
  ```
     apt-get install samba
@@ -55,6 +55,7 @@
       browseable = {yes-no} 
       valid users = {usuários-permitidos} 
   ```
+  - Comandos utilizados para reinicialização do serviço samba
   
   ```
   $ service smbd restart
@@ -63,6 +64,8 @@
   ```
   $ service nmbd restart
   ```
+  
+  - Comando utilizado para criar o usuário no samba
   
   ```
   $ smbpasswd -a {nome-do-usuário} (para criar o usuário no samba)
