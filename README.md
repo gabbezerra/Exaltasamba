@@ -30,7 +30,7 @@
   - apt-get install samba
   - chmod +777 /{pasta-a-ser-compartilhada}
   - vim /etc/samba/smb.conf
-  ```
+  ````````
     [global]
       workgroup = {nome-do-grupo}
       security = {tipo-de-segurança}
@@ -39,7 +39,7 @@
       path = {local-da-pasta-compartilhada}
       browseable = {yes-no}
       valid users = {usuários-permitidos}
-  ```
+  ````````
   ```
   $ service smbd restart
   $ service nmbd restart
