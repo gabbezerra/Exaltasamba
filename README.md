@@ -39,22 +39,22 @@
     $ chmod +777 /{pasta-a-ser-compartilhada}
   ```
   
-  - Basicamente as configurações do samba são feitas no arquivo smb.conf, e para realizar as configurações basta abrir o arquivo com alguma ferramenta de escrita como o pico, o nano ou o vim. 
+  - Basicamente as configurações do samba são feitas no arquivo smb.conf, e para realizar as configurações basta abrir o arquivo com alguma ferramenta de escrita como o pico, o nano, o vim ou qualquer editor de sua preferência. 
   
   ```
-    vim /etc/samba/smb.conf
+    $ vim /etc/samba/smb.conf
   ```
   
-  ```
-    [global] 
-      workgroup = {nome-do-grupo} 
-      security = {tipo-de-segurança} 
-    [usuário] 
-      writeable = {yes-no} 
-      path = {local-da-pasta-compartilhada} 
-      browseable = {yes-no} 
-      valid users = {usuários-permitidos} 
-  ```
+    ```
+      [global] 
+         workgroup = {nome-do-grupo} 
+         security = {tipo-de-segurança} 
+      [usuário] 
+         writeable = {yes-no} 
+         path = {local-da-pasta-compartilhada} 
+         browseable = {yes-no} 
+         valid users = {usuários-permitidos} 
+    ```
   - Comandos utilizados para reinicialização do serviço samba
   
   ```
