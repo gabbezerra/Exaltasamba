@@ -44,6 +44,12 @@
   
   ```
   $ service smbd restart
+  ```
+  
+  ```
   $ service nmbd restart
+  ```
+  
+  ```
   $ smbpasswd -a {nome-do-usuário} (para criar o usuário no samba)
   ```    
