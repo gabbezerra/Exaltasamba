@@ -23,13 +23,27 @@
 
 ![Alt Text](https://github.com/gabbezerra/ProjetoDw/blob/master/Esboc%CC%A7o3.jpg)
 
+
+
 # Comandos utilizados para instalação e configuração do samba
-
-  Basicamente as configurações do samba utilizam o pico, nano ou qualquer outra ferramenta de escrita, para fazer as configurações no /etc/samba/smb.conf
-
-  - apt-get install samba
-  - chmod +777 /{pasta-a-ser-compartilhada}
-  - vim /etc/samba/smb.conf
+  
+  - Instalaço do samba
+ 
+ ```
+    apt-get install samba
+ ```
+ 
+ - Comando utilizado para dar permissão a pasta que você deseja compartilhar.   
+  
+  ```
+    $ chmod +777 /{pasta-a-ser-compartilhada}
+  ```
+  
+  - Basicamente as configurações do samba são feitas no arquivo smb.conf, e para realizar as configurações basta abrir o arquivo com alguma ferramenta de escrita como o pico, o nano ou o vim. 
+  
+  ```
+    vim /etc/samba/smb.conf
+  ```
   
   ```
     [global] 
