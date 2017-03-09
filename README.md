@@ -3,9 +3,15 @@
   Nosso projeto tem como objetivo principal implementar um serviço web para facilitar a configuração e uso do samba para compartilhamento de arquivos com uma interface amigável e de fácil uso.
 
 ## Objetivo
+  - Permitir que Linux e Windows compartilhem recursos entre si  
 
 ## Sistema Existente
-  - Webmin SAMBA
+ 
+ - Webmin SAMBA
+  
+      O Webmin é uma interface web para a administração do seu servidor, onde você pode configurar contas de usuário
+    configurar servidores apache, servidores DNS e entre outros serviços. Nesse caso estamos utilizando o webmin como 
+    base para criação da nossa interface web do servidor samba
   
 ![Alt Text](https://github.com/gabbezerra/ProjetoDw/blob/master/IMG_20022017_170226_0.png)
 
