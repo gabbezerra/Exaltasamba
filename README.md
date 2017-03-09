@@ -1,9 +1,10 @@
 # Projeto Samba
   O Samba é um "software servidor" para Linux (e outros sistemas baseados em Unix) que permite o gerenciamento e compartilhamento de recursos em redes formadas por computadores com o Windows.
-  Nosso projeto tem como objetivo principal implementar um serviço web para facilitar a configuração e uso do samba para compartilhamento de arquivos com uma interface amigável e de fácil uso.
+ 
 
 ## Objetivo
-  - Permitir que Linux e Windows compartilhem recursos entre si  
+  -  Nosso projeto tem como objetivo principal implementar um serviço web para facilitar a configuração e uso do samba para compartilhamento de arquivos com uma interface amigável e de fácil uso para que, o usuario inexperiente quanto a comandos 
+ shell, possa facilmento ultilizar o samba.
 
 ## Sistema Existente
  
