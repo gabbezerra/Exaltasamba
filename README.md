@@ -27,8 +27,14 @@
 
 # Esboço De Tela
   - Exaltasamba
+   
+   - Tela da Login
+![Alt Text](https://github.com/gabbezerra/Exaltasamba/blob/master/TelaLogin.png)
+   - Tela 1 
+![Alt Text](https://github.com/gabbezerra/Exaltasamba/blob/master/Tela1.png)
+   - Tela 2 - Compartilhamento
+![Alt Text](https://github.com/gabbezerra/Exaltasamba/blob/master/Comp.png)
 
-![Alt Text](https://github.com/gabbezerra/ProjetoDw/blob/master/Esboc%CC%A7o3.jpg)
 
 
 
