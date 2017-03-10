@@ -25,9 +25,9 @@
 
 
 # Esboço De Tela
-  - Exaltasamba
+  ## Exaltasamba
    
-    - Tela da Login
+   - Tela da Login
    
 ![Alt Text](https://github.com/gabbezerra/Exaltasamba/blob/master/TelaLogin.png)
 
