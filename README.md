@@ -7,7 +7,7 @@
 
 ## Sistema Existente
  
-- Webmin SAMBA
+Webmin SAMBA
   
       O Webmin é uma interface web para a administração do seu servidor, onde você pode configurar contas de usuário
     configurar servidores apache, servidores DNS e entre outros serviços. Nesse caso estamos utilizando o webmin como 
