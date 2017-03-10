@@ -31,11 +31,12 @@
    - Tela da Login
    
 ![Alt Text](https://github.com/gabbezerra/Exaltasamba/blob/master/TelaLogin.png)
-   - Tela 1 
+
+   - Tela inicial do programa, onde lista as pastas compartilhadas e o acesso as configuracoes.
    
 ![Alt Text](https://github.com/gabbezerra/Exaltasamba/blob/master/Tela1.png)
   
-  - Tela 2 - Compartilhamento
+  - Configuracoes de Compartilhamento, onde configuraremos os usuarios, grupos e suas permissoes
    
 ![Alt Text](https://github.com/gabbezerra/Exaltasamba/blob/master/Comp.png)
 
