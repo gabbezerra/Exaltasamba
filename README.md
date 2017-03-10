@@ -14,11 +14,11 @@
     base para criação da nossa interface web do servidor samba.
   
   
-- Pagina inicial do webmin samba, onde mostra as pastas compartilhadas e o acesso a todas as outras configuracoes
+ - Pagina inicial do webmin samba, onde mostra as pastas compartilhadas e o acesso a todas as outras configuracoes
 
 ![Alt Text](https://github.com/gabbezerra/ProjetoDw/blob/master/IMG_20022017_170226_0.png)
 
-- Configuracoes de seguranca
+  - Configuracoes de seguranca
 
 ![Alt Text](https://github.com/gabbezerra/ProjetoDw/blob/master/IMG_20022017_170316_0.png)
 
