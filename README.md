@@ -12,7 +12,7 @@
   
       O Webmin é uma interface web para a administração do seu servidor, onde você pode configurar contas de usuário
     configurar servidores apache, servidores DNS e entre outros serviços. Nesse caso estamos utilizando o webmin como 
-    base para criação da nossa interface web do servidor samba
+    base para criação da nossa interface web do servidor samba.
   
   
   - Pagina inicial do webmin samba, onde mostra as pastas compartilhadas e o acesso a todas as outras configuracoes
@@ -25,7 +25,8 @@
 
 
 # Esboço De Tela
-  ## Exaltasamba
+  
+## Exaltasamba
    
    - Tela da Login
    
