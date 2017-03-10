@@ -1,24 +1,24 @@
 # Projeto Samba
-  O Samba é um "software servidor" para Linux (e outros sistemas baseados em Unix) que permite o gerenciamento e compartilhamento de recursos em redes formadas por computadores com o Windows.
+  - O Samba é um "software servidor" para Linux (e outros sistemas baseados em Unix) que permite o gerenciamento e compartilhamento de recursos em redes formadas por computadores com o Windows.
  
 
 ## Objetivo
-    Nosso projeto tem como objetivo principal implementar um serviço web para facilitar a configuração e uso do samba para compartilhamento de arquivos com uma interface amigável e de fácil uso para que, o usuario inexperiente quanto a comandos shell, possa facilmento ultilizar o samba.
+   - Nosso projeto tem como objetivo principal implementar um serviço web para facilitar a configuração e uso do samba para compartilhamento de arquivos com uma interface amigável e de fácil uso para que, o usuario inexperiente quanto a comandos shell, possa facilmento ultilizar o samba.
 
 ## Sistema Existente
  
-## Webmin SAMBA
+- Webmin SAMBA
   
       O Webmin é uma interface web para a administração do seu servidor, onde você pode configurar contas de usuário
     configurar servidores apache, servidores DNS e entre outros serviços. Nesse caso estamos utilizando o webmin como 
     base para criação da nossa interface web do servidor samba.
   
   
-  - Pagina inicial do webmin samba, onde mostra as pastas compartilhadas e o acesso a todas as outras configuracoes
+- Pagina inicial do webmin samba, onde mostra as pastas compartilhadas e o acesso a todas as outras configuracoes
 
 ![Alt Text](https://github.com/gabbezerra/ProjetoDw/blob/master/IMG_20022017_170226_0.png)
 
-  - Configuracoes de seguranca
+- Configuracoes de seguranca
 
 ![Alt Text](https://github.com/gabbezerra/ProjetoDw/blob/master/IMG_20022017_170316_0.png)
 
