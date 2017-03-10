@@ -3,12 +3,11 @@
  
 
 ## Objetivo
-  -  Nosso projeto tem como objetivo principal implementar um serviço web para facilitar a configuração e uso do samba para compartilhamento de arquivos com uma interface amigável e de fácil uso para que, o usuario inexperiente quanto a comandos 
- shell, possa facilmento ultilizar o samba.
+    Nosso projeto tem como objetivo principal implementar um serviço web para facilitar a configuração e uso do samba para compartilhamento de arquivos com uma interface amigável e de fácil uso para que, o usuario inexperiente quanto a comandos shell, possa facilmento ultilizar o samba.
 
 ## Sistema Existente
  
- - Webmin SAMBA
+## Webmin SAMBA
   
       O Webmin é uma interface web para a administração do seu servidor, onde você pode configurar contas de usuário
     configurar servidores apache, servidores DNS e entre outros serviços. Nesse caso estamos utilizando o webmin como 
