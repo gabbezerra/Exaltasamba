@@ -14,11 +14,11 @@
     configurar servidores apache, servidores DNS e entre outros serviços. Nesse caso estamos utilizando o webmin como 
     base para criação da nossa interface web do servidor samba
   
-- Pagina inicial do webmin samba, onde mostra as pastas compartilhadas e o acesso a todas as outras configuracoes
+  - Pagina inicial do webmin samba, onde mostra as pastas compartilhadas e o acesso a todas as outras configuracoes
 
 ![Alt Text](https://github.com/gabbezerra/ProjetoDw/blob/master/IMG_20022017_170226_0.png)
 
-- Configuracoes de seguranca
+  - Configuracoes de seguranca
 
 ![Alt Text](https://github.com/gabbezerra/ProjetoDw/blob/master/IMG_20022017_170316_0.png)
 
@@ -26,15 +26,15 @@
 # Esboço De Tela
   - Exaltasamba
    
-   - Tela da Login
+    - Tela da Login
    
 ![Alt Text](https://github.com/gabbezerra/Exaltasamba/blob/master/TelaLogin.png)
 
-   - Tela inicial do programa, onde lista as pastas compartilhadas e o acesso as configuracoes.
+    - Tela inicial do programa, onde lista as pastas compartilhadas e o acesso as configuracoes.
    
 ![Alt Text](https://github.com/gabbezerra/Exaltasamba/blob/master/Tela1.png)
   
-  - Configuracoes de Compartilhamento, onde configuraremos os usuarios, grupos e suas permissoes
+    - Configuracoes de Compartilhamento, onde configuraremos os usuarios, grupos e suas permissoes
    
 ![Alt Text](https://github.com/gabbezerra/Exaltasamba/blob/master/Comp.png)
 
