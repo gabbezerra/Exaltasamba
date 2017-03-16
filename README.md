@@ -22,7 +22,7 @@ O Webmin é uma interface web para a administração do seu servidor, onde você
 Pagina inicial do webmin samba, onde mostra as pastas compartilhadas e o acesso a todas as outras configuracoes **Figura 1**
 
 *Figura 1 - Descr Imagen*
-![Alt Text](https://github.com/gabbezerra/ProjetoDw/doc/img/IMG_20022017_170226_0.png)
+
 ![Alt Text](/doc/img/IMG_20022017_170226_0.png)
 Configuracoes de seguranca
 
