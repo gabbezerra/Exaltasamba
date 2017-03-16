@@ -14,30 +14,28 @@ Nosso projeto tem como objetivo principal implementar um serviço web para facil
 
 Webmin SAMBA
 
-O Webmin é uma interface web para a administração do seu servidor, onde você pode configurar contas de usuário
-    configurar servidores apache, servidores DNS e entre outros serviços. Nesse caso estamos utilizando o webmin como
-    base para criação da nossa interface web do servidor samba.
+O Webmin é uma interface web para a administração do seu servidor, onde você pode configurar contas de usuário configurar servidores apache, servidores DNS e entre outros serviços. Nesse caso estamos utilizando o webmin como base para criação da nossa interface web do servidor samba.
 
-A**Figura 1** mostra a pagina inicial do webmin samba
+* Figura 1 - Pagina inicial do Webmin onde são exibidas as pastas compartilhadas e o acesso as configurações do samba*
 
-*Figura 1 - Mostra as pastas compartilhadas e o acesso as configurações do samba
 ![Alt Text](/doc/img/IMG_20022017_170226_0.png)
-Configuracoes de seguranca
+
+* Figura 2 - Mostra as Configuracoes de seguranca do samba*
 
 ![Alt Text](/doc/img/IMG_20022017_170316_0.png)
 
 
 ## Esboço De Tela
 
-   - Tela da Login
+* Figura 3 - Tela da Login
 
 ![Alt Text](/doc/img/TelaLogin.png)
 
-   - Tela inicial do programa, onde lista as pastas compartilhadas e o acesso as configuracoes.
+* Figura 4 - Tela inicial do programa, onde lista as pastas compartilhadas e o acesso as configuracoes.
 
 ![Alt Text](/doc/img/Tela1.png)
 
-   - Configuracoes de Compartilhamento, onde configuraremos os usuarios, grupos e suas permissoes
+* Figura 5 - Configuracoes de Compartilhamento, onde configuraremos os usuarios, grupos e suas permissoes
 
 ![Alt Text](/doc/img/Comp.png)
 
