@@ -18,9 +18,7 @@ O Webmin é uma interface web para a administração do seu servidor, onde você
 
 ## Instalação
 
- Para a execução do projeto é necessário que seu computador possua o **servidor samba** intalado, mas caso não possua estaremos disponibilizando um Vagrant com o servidor já instalado e além disso mostraremos de maneira superficial como é feita a instalação e configuração do samba. No caso de existir alguma duvida sobre a instalação do samba estaremos disponibilizando um site que auxilie na instalação.
- 
- [vivaolinux](https://www.vivaolinux.com.br/artigo/Samba-Instalacao-e-configuracao-descomplicada/)
+ Para a execução do projeto é necessário que seu computador possua o **servidor samba** intalado, mas caso não possua estaremos disponibilizando um Vagrant com o servidor já instalado e além disso mostraremos de maneira superficial como é feita a instalação e configuração do samba. No caso de existir alguma duvida sobre a instalação do samba estaremos disponibilizando o link do site [vivaolinux](https://www.vivaolinux.com.br/artigo/Samba-Instalacao-e-configuracao-descomplicada/) para auxiliar na instalação.
  
 ## Comandos
 
@@ -73,28 +71,28 @@ Basicamente as configurações do samba são feitas no arquivo smb.conf, e para 
     ```
 
 
+## Webimin - Tela
 
-
-* Figura 1 - Pagina inicial do Webmin onde são exibidas as pastas compartilhadas e o acesso as configurações do samba*
+*Figura 1 - Pagina inicial do Webmin onde são exibidas as pastas compartilhadas e o acesso as configurações do samba*
 
 ![Alt Text](/doc/img/IMG_20022017_170226_0.png)
 
-* Figura 2 - Mostra as Configuracoes de seguranca do samba*
+*Figura 2 - Mostra as Configuracoes de seguranca do samba*
 
 ![Alt Text](/doc/img/IMG_20022017_170316_0.png)
 
 
 ## Esboço De Tela
 
-* Figura 3 - Tela da Login
+*Figura 3 - Tela da Login*
 
 ![Alt Text](/doc/img/TelaLogin.png)
 
-* Figura 4 - Tela inicial do programa, onde lista as pastas compartilhadas e o acesso as configuracoes.
+*Figura 4 - Tela inicial do programa, onde lista as pastas compartilhadas e o acesso as configuracoes.*
 
 ![Alt Text](/doc/img/Tela1.png)
 
-* Figura 5 - Configuracoes de Compartilhamento, onde configuraremos os usuarios, grupos e suas permissoes
+*Figura 5 - Configuracoes de Compartilhamento, onde configuraremos os usuarios, grupos e suas permissoes*
 
 ![Alt Text](/doc/img/Comp.png)
 
