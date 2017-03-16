@@ -7,8 +7,8 @@ O Samba é um "software servidor" para Linux (e outros sistemas baseados em Unix
 
 Nosso projeto tem como objetivo principal implementar um serviço web para facilitar a configuração e uso do samba para compartilhamento de arquivos com uma interface amigável e de fácil uso para que, o usuario inexperiente quanto a comandos shell, possa facilmento ultilizar o samba:
 
-* adionar pasta a ser compartilhadas
-* ...
+* adicionar pastas a serem compartilhadas com o windows
+* garantir a segurança do compartilhamento
 
 ## Sistema Existente
 
@@ -22,8 +22,8 @@ O Webmin é uma interface web para a administração do seu servidor, onde você
 Pagina inicial do webmin samba, onde mostra as pastas compartilhadas e o acesso a todas as outras configuracoes **Figura 1**
 
 *Figura 1 - Descr Imagen*
-![Alt Text](https://github.com/gabbezerra/ProjetoDw/blob/master/IMG_20022017_170226_0.png)
-
+![Alt Text](https://github.com/gabbezerra/ProjetoDw/doc/img/IMG_20022017_170226_0.png)
+![Alt Text](/doc/img/IMG_20022017_170226_0.png)
 Configuracoes de seguranca
 
 ![Alt Text](https://github.com/gabbezerra/ProjetoDw/blob/master/IMG_20022017_170316_0.png)
