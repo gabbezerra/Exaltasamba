@@ -18,49 +18,66 @@ O Webmin é uma interface web para a administração do seu servidor, onde você
     configurar servidores apache, servidores DNS e entre outros serviços. Nesse caso estamos utilizando o webmin como
     base para criação da nossa interface web do servidor samba.
 
+A**Figura 1** mostra a pagina inicial do webmin samba
 
-Pagina inicial do webmin samba, onde mostra as pastas compartilhadas e o acesso a todas as outras configuracoes **Figura 1**
-
-*Figura 1 - Descr Imagen*
-
+*Figura 1 - Mostra as pastas compartilhadas e o acesso as configurações do samba
 ![Alt Text](/doc/img/IMG_20022017_170226_0.png)
 Configuracoes de seguranca
 
-![Alt Text](https://github.com/gabbezerra/ProjetoDw/blob/master/IMG_20022017_170316_0.png)
+![Alt Text](/doc/img/IMG_20022017_170316_0.png)
 
 
 ## Esboço De Tela
 
    - Tela da Login
 
-![Alt Text](https://github.com/gabbezerra/Exaltasamba/blob/master/TelaLogin.png)
+![Alt Text](/doc/img/TelaLogin.png)
 
    - Tela inicial do programa, onde lista as pastas compartilhadas e o acesso as configuracoes.
 
-![Alt Text](https://github.com/gabbezerra/Exaltasamba/blob/master/Tela1.png)
+![Alt Text](/doc/img/Tela1.png)
 
    - Configuracoes de Compartilhamento, onde configuraremos os usuarios, grupos e suas permissoes
 
-![Alt Text](https://github.com/gabbezerra/Exaltasamba/blob/master/Comp.png)
+![Alt Text](/doc/img/Comp.png)
 
 
 # Instalação e configuração
 
-[google](http://www.google.com)
+## Comandos
 
-  - Instalação do samba
+### Instalação do samba
 
  ```
     apt-get install samba
  ```
 
- - Comando utilizado para dar permissão a pasta que você deseja compartilhar.   
 
+### Criar o usuário no samba
+
+  ```
+  $ smbpasswd -a {nome-do-usuário} (para criar o usuário no samba)
+  ```
+
+### Permissão da pasta a ser compartilhada
+  
   ```
     $ chmod +777 /{pasta-a-ser-compartilhada}
+  ``` 
+
+### Reiniciar o servidor samba
+
+  ```
+  $ service smbd restart
   ```
 
-  - Basicamente as configurações do samba são feitas no arquivo smb.conf, e para realizar as configurações basta abrir o arquivo com alguma ferramenta de escrita como o pico, o nano, o vim ou qualquer editor de sua preferência.
+  ```
+  $ service nmbd restart
+  ```
+  
+## Configuração do arquivo
+
+Basicamente as configurações do samba são feitas no arquivo smb.conf, e para realizar as configurações basta abrir o arquivo com alguma ferramenta de escrita como o pico, o nano, o vim ou qualquer editor de sua preferência.
 
   ```
     $ vim /etc/samba/smb.conf
@@ -76,24 +93,5 @@ Configuracoes de seguranca
          browseable = {yes-no}
          valid users = {usuários-permitidos}
     ```
-  - Comandos utilizados para reinicialização do serviço samba
 
-  ```
-  $ service smbd restart
-  ```
 
-  ```
-  $ service nmbd restart
-  ```
-
-  - Comando utilizado para criar o usuário no samba
-
-  ```
-  $ smbpasswd -a {nome-do-usuário} (para criar o usuário no samba)
-  ```    
-
-## Comandos
-
-### Compartilhar pastas
-
-###
