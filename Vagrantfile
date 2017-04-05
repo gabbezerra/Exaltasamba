@@ -13,7 +13,7 @@ Vagrant.configure(2) do |config|
   # Every Vagrant development environment requires a box. You can search for
   # boxes at https://atlas.hashicorp.com/search.
   # $ vagrant box list
-  config.vm.box = "ubuntu/xenial64"
+  config.vm.box = "ubuntu/precise32"
 
   # Disable automatic box update checking. If you disable this, then
   # boxes will only be checked for updates when the user runs
@@ -29,6 +29,8 @@ Vagrant.configure(2) do |config|
   # Create a private network, which allows host-only access to the machine
   # using a specific IP.
   # config.vm.network "private_network", ip: "192.168.33.10"
+    config.vm.network "private_network", type: "dhcp"
+
 
   # Create a public network, which generally matched to bridged network.
   # Bridged networks make the machine appear as another physical device on
@@ -109,8 +111,20 @@ Vagrant.configure(2) do |config|
       sudo apt-get -y install mysql-server  > /dev/null
 
     echo "Installing Samba"
-
-
+    sudo a-get install samba
+    mkdir /home/ubuntu/pasta-compartilhada
+    chmod +777 /home/ubuntu/pasta-compartilhada
+    mv /etc/samba/smb.conf /etc/samba/smb.conf.original
+    echo "[global]" >> /etc/samba/smb.conf
+    echo "workgroup = GRUPO" >> /etc/samba/smb.conf
+    echo "security = user" >> /etc/samba/smb.conf
+    echo "[ubuntu]" >> /etc/samba/smb.conf
+    echo "writeable = yes" >> /etc/samba/smb.conf
+    echo "browseable = yes" >> /etc/samba/smb.conf
+    echo "path = /home/ubuntu/pasta-compartilhada" >> /etc/samba/smb.conf
+    echo "valid users = ubuntu" >> /etc/samba/smb.conf
+    SMBPASSWD=ifpb
+    sudo smbpasswd -a ubuntu   
     echo "Vagrant finish installing"
   SHELL
 end
