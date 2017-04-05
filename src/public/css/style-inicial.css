@@ -1,0 +1,33 @@
+body{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #eee;
+}
+
+.form-login .form-login-heading,
+.form-login .checkbox{
+  margin-bottom: 20px;
+
+}
+.form-login .form-control{
+  position: relative;
+  height: auto;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-login .form-control:focus{
+  z-index: 2;
+}
+.form-login input[type="user"]{
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-login input[type="pass"]{
+  margin-bottom: 10px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
