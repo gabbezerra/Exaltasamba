@@ -111,7 +111,7 @@ Vagrant.configure(2) do |config|
       sudo apt-get -y install mysql-server  > /dev/null
 
     echo "Installing Samba"
-    sudo a-get install samba
+    sudo apt-get -y install samba
     mkdir /home/ubuntu/pasta-compartilhada
     chmod +777 /home/ubuntu/pasta-compartilhada
     mv /etc/samba/smb.conf /etc/samba/smb.conf.original
