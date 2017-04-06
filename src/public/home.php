@@ -1,6 +1,6 @@
 <?php
   session_start();
-  if(!isset($_SESSION['auth']) || $_SESSION['auth'] === false)
+  if(!isset($_SESSION['user_id']) || $_SESSION['user_id'] === false)
     header('Location: login.html');
 ?>
 
@@ -44,5 +44,9 @@
 
     <button type="button" class="btn btn-danger">Parar Servidor</button>
     <button type="button" class="btn btn-primary">Reiniciar Servidor</button>
+
+<form action=funcao_btn.php method=get >
+    <input type=submit value='Meu Botão' />
+</form>
   </body>
 </html>
