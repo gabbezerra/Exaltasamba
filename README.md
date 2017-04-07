@@ -96,4 +96,6 @@ Basicamente as configurações do samba são feitas no arquivo smb.conf, e para 
 
 ![Alt Text](/doc/img/Comp.png)
 
+## Uso da api
 
+Para o funcionamento da api, juntamente com o banco de dados, é nescessario a execução do arquivo *"install.php"* na pasta api, fazendo com que seja criado o banco de dados *exaltasamba.*
