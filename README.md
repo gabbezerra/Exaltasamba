@@ -20,6 +20,10 @@ O Webmin é uma interface web para a administração do seu servidor, onde você
 
  Para a execução do projeto é necessário que seu computador possua o **servidor samba** intalado, mas caso não possua estaremos disponibilizando um Vagrant com o servidor já instalado e além disso mostraremos de maneira superficial como é feita a instalação e configuração do samba. No caso de existir alguma duvida sobre a instalação do samba estaremos disponibilizando o link de um artigo no site do [vivaolinux](https://www.vivaolinux.com.br/artigo/Samba-Instalacao-e-configuracao-descomplicada/) para auxiliar na instalação.
  
+ ## Uso da api
+
+Para o funcionamento da api, juntamente com o banco de dados, é nescessario a execução do arquivo *"install.php"* na pasta api, fazendo com que seja criado o banco de dados *exaltasamba.*
+ 
 ## Comandos
 
 ### Instalação do samba
@@ -96,6 +100,4 @@ Basicamente as configurações do samba são feitas no arquivo smb.conf, e para 
 
 ![Alt Text](/doc/img/Comp.png)
 
-## Uso da api
 
-Para o funcionamento da api, juntamente com o banco de dados, é nescessario a execução do arquivo *"install.php"* na pasta api, fazendo com que seja criado o banco de dados *exaltasamba.*
